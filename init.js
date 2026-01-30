@@ -1,7 +1,7 @@
 header = `
 <h1>
     <a href="index.html" style="text-decoration: none; color: inherit;">
-        <img src="figure/icon.png" alt="Article SAVE Logo" style="height: 50px; vertical-align: middle; margin-right: 10px;">
+        <img src="/figure/icon.png" alt="Article SAVE Logo" style="height: 50px; vertical-align: middle; margin-right: 10px;">
         Article SAVE
     </a>
 </h1>
@@ -36,9 +36,9 @@ document.getElementById('nav').innerHTML = nav;
 
 // Navigation button event listeners
 document.getElementById('home-button').addEventListener('click', function() {
-    window.location.href = 'index.html';
+    window.location.href = '/index';
 });
 
 document.getElementById('submission-procedure-button').addEventListener('click', function() {
-    window.location.href = 'submission-procedure.html';
+    window.location.href = '/submission-procedure';
 });
