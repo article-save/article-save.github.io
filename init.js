@@ -20,10 +20,10 @@ nav = `
 <div class="nav-separator"></div>
 <table>
     <tr>
-        <td><a href="index.html">Home</a></td>
+        <td><a href="index.html">홈</a></td>
     </tr>
     <tr>
-        <td><a href="submission-procedure.html">Submission</a></td>
+        <td><a href="submission-procedure.html">투고 절차 안내</a></td>
     </tr>
 </table>
 `;
