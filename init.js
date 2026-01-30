@@ -1,6 +1,6 @@
 header = `
 <h1>
-    <a href="index.html" style="text-decoration: none; color: inherit;">
+    <a href="/" style="text-decoration: none; color: inherit;">
         <img src="/figure/icon.png" alt="Article SAVE Logo" style="height: 50px; vertical-align: middle; margin-right: 10px;">
         Article SAVE
     </a>
