@@ -18,16 +18,27 @@ nav = `
     MENU
 </h3>
 <div class="nav-separator"></div>
-<table>
+<div>
+<table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
     <tr>
-        <td><a href="index.html">홈</a></td>
+        <td><button class="menu-button" id="home-button">홈</button></td>
     </tr>
     <tr>
-        <td><a href="submission-procedure.html">투고 절차 안내</a></td>
+        <td><button class="menu-button" id="submission-procedure-button">투고 절차 안내</button></td>
     </tr>
 </table>
+</div>
 `;
 
 document.getElementById('header').innerHTML = header;
 document.getElementById('footer').innerHTML = footer;
 document.getElementById('nav').innerHTML = nav;
+
+// Navigation button event listeners
+document.getElementById('home-button').addEventListener('click', function() {
+    window.location.href = 'index.html';
+});
+
+document.getElementById('submission-procedure-button').addEventListener('click', function() {
+    window.location.href = 'submission-procedure.html';
+});

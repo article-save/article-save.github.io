@@ -2,7 +2,9 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #222;
-    color: #BBB;
+    color: #EEE;
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -13,20 +15,22 @@ header {
     margin-bottom: 10px;
 }
 
-main {
-    max-width: 1200px;
-    padding: 20px;
-}
-
 footer {
     text-align: center;
     margin-top: 40px;
     font-size: 0.9em;
     color: #BBB;
+    background-color: #333;
+    padding: 10px;
+}
+
+main {
+    max-width: 1200px;
+    padding: 20px;
 }
 
 nav {
-    width: 200px;
+    min-width: 200px;
     border-right: 1px solid #FFF;
     text-align: left;
     padding: 15px;
@@ -90,4 +94,22 @@ a:visited {
 .nav-separator {
     border-top: 1px solid #555;
     margin: 10px 0;
+}
+
+button.menu-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #444;
+    color: #FFF;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+button.menu-button:hover {
+    background-color: #555;
 }
