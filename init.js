@@ -14,7 +14,18 @@ footer = `
 `;
 
 nav = `
-
+<h3 style="margin-bottom: 10px; text-align: center;">
+    MENU
+</h3>
+<div class="nav-separator"></div>
+<table>
+    <tr>
+        <td><a href="index.html">Home</a></td>
+    </tr>
+    <tr>
+        <td><a href="submission-procedure.html">Submission</a></td>
+    </tr>
+</table>
 `;
 
 document.getElementById('header').innerHTML = header;

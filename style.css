@@ -1,20 +1,21 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
     line-height: 1.6;
     background-color: #222;
     color: #BBB;
 }
 
 header {
-    text-align: center;
-    margin-bottom: 40px;
-
+    text-align: left;
+    background-color: #333;
+    padding: 5px;
+    padding-left: 30px;
+    margin-bottom: 10px;
 }
 
 main {
     max-width: 1200px;
-    margin: 0 auto;
+    padding: 20px;
 }
 
 footer {
@@ -22,6 +23,20 @@ footer {
     margin-top: 40px;
     font-size: 0.9em;
     color: #BBB;
+}
+
+nav {
+    width: 200px;
+    border-right: 1px solid #FFF;
+    text-align: left;
+    padding: 15px;
+}
+
+.content {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
 }
 
 .horizontal-slot {
@@ -69,5 +84,10 @@ a:visited {
     max-width: 100%;
     height: auto;
     display: block;
+    margin: 10px 0;
+}
+
+.nav-separator {
+    border-top: 1px solid #555;
     margin: 10px 0;
 }
